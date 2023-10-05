@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'Poppins-Black';
+	src: url('./fonts/Poppins/Poppins-Black.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Poppins-Thin';
+	src: url('./fonts/Poppins/Poppins-Thin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'AbrilFatface-Regular';
+	src: url('./fonts/abr/AbrilFatface-Regular.ttf') format('truetype');
+}
+
+* {
+	font-family: Poppins-Thin;
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #fdb259;
+}
+
+.animate-spin {
+	animation-duration: 15s;
+}
