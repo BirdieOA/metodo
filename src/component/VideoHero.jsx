@@ -1,4 +1,4 @@
-import React, { lazy } from 'react';
+import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 
 export default function VideoHero() {
@@ -24,18 +24,15 @@ export default function VideoHero() {
 			</section>
 			<section className='absolute top-0 flex lg:h-screen justify-center items-center align-middle'>
 				<div className='relative z-10 text-white text-center'>
-					<h1 className='text-white font-semibold text-2xl lg:leading-[70px] lg:text-6xl mt-[200px] sm:mt-[130px] px-10 lg:mt-[100px] lg:px-72'>
+					<h1 className='text-white font-poppinsRegular text-2xl lg:leading-[70px] lg:text-6xl mt-[200px] sm:mt-[130px] px-10 lg:mt-[100px] lg:px-72'>
 						“El Método” para Profesionales que deseen enseñarlo y para los
 						Adultos Mayores que deseen practicarlo
 					</h1>
 					<br />
-					<button className='px-4 py-2 bg-[#FDB259] rounded-lg text-2xl font-semibold border-2 border-neutral-500 hover:bg-[#bfcaa4] cursor-pointer mt-4 ease-in duration-300'>
-						<a
-							href='#flyer'
-							className='text-zinc-800 font-bold text-2xl'
-						>
+					<button className='px-4 py-2 bg-[#FDB259] rounded-lg text-2xl border-4 border-orange-500 hover:border-slate-600 hover:bg-slate-500 text-slate-800  hover:text-white cursor-pointer mt-4 ease-in duration-300'>
+						<Link to='/routes/Nosotros/' className='text-2xl font-semibold'>
 							SABER MAS
-						</a>
+						</Link>
 					</button>
 				</div>
 			</section>

@@ -1,5 +1,6 @@
 import React from 'react';
-import CarouselComponent from './CarouselComponent';
+import Videos from './Videos';
+
 
 export default function GaleriaDeFotos() {
 	const images = [
@@ -17,21 +18,21 @@ export default function GaleriaDeFotos() {
 	return (
 		<>
 			<section className='flex flex-col sm:items-center'>
-				<div className='grid grid-cols-1 lg:grid-cols-3 mt-20 sm:px-20 mb-20 gap-10 p-5 sm:p-40'>
+				<div className='grid grid-cols-1 lg:grid-cols-3 mt-20 sm:px-20  gap-10 p-5 sm:p-40'>
 					{images.map((image, index) => (
 						<img
 							key={index}
 							src={image}
 							alt={`Image ${index + 1}`}
-							className='shadow-xl border-8 border-orange-200 h-[400px] sm:w-[500px] lg:w-full object-cover rounded-[25px]'
+							className='shadow-lg h-[400px] sm:w-[500px] lg:w-full object-cover rounded-[25px] shadow-orange-700/50'
 							loading='lazy'
 						/>
 					))}
 				</div>
-				<h1 className='flex text-4xl lg:text-6xl justify-center text-[#3b3a3a] font-semibold mb-10'>
+				<h1 className='flex text-6xl sm:text-6xl lg:text-6xl justify-center text-slate-700 font-semibold'>
 					VIDEOS
 				</h1>
-				<CarouselComponent />
+				<Videos/>
 			</section>
 		</>
 	);

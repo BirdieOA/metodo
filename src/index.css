@@ -16,6 +16,17 @@
 	font-family: 'AbrilFatface-Regular';
 	src: url('./fonts/abr/AbrilFatface-Regular.ttf') format('truetype');
 }
+@font-face {
+	font-family: 'Poppins-Regular';
+	src: url('./fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Libre-Baskerville';
+	src: url('./fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf') format('truetype');
+}
+
+
 
 * {
 	font-family: Poppins-Thin;
@@ -28,4 +39,19 @@ body {
 
 .animate-spin {
 	animation-duration: 15s;
+}
+
+::-webkit-scrollbar{
+width: 0.9em;
+}
+
+::-webkit-scrollbar-track{
+	background: #334155;
+}
+
+::-webkit-scrollbar-thumb{
+	border-radius:100vh;
+	background: #64748b;
+
+
 }

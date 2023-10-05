@@ -10,6 +10,8 @@ export default {
 			poppinsBlack: ['Poppins-Black'],
 			poppinsThin: ['Poppins-Thin'],
 			abrilFatface: ['AbrilFatface-Regular'],
+			poppinsRegular: ['Poppins-Regular',],
+			libreBaskerville: ['libreBaskerville']
 		},
 		extend: {
 			backgroundImage: {

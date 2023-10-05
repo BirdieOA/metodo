@@ -17,44 +17,46 @@ export default function ModalMenu() {
 	return (
 		<>
 			<button className='hover:fill-[#FDB259]  lg:hidden' onClick={openModal}>
-				<HiMenu className='fill-[#FEE6B9] hover:fill-[#FDB259]' />
+				<HiMenu className='fill-slate-700 hover:fill-white' />
 			</button>
 			{isOpen && (
 				<div className='fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-80 '>
-					<div className='bg-[#FEE6B9] mt-12 sm:mt-0 fill-[#FDB259] text-slate-700 rounded-lg p-6 w-[320px] h-[520px] lg:w-[430px] flex flex-col items-center justify-center'>
+					<div className='bg-[#FDB259] mt-12 sm:mt-0 text-slate-700 rounded-lg p-6 w-[320px] h-[520px] lg:w-[430px] flex flex-col items-center justify-center border-4 border-slate-700 mb-10'>
 						<GrClose
 							onClick={closeModal}
-							className='text-4xl w-60 lg:hidden hover:fill-[#FDB259] mb-20 cursor-pointer'
+							className=' lg:hidden mb-20 cursor-pointer bg-slate-800/20 shadow-md shadow-slate-700 h-12 w-10 rounded-lg p-2'
+							
 						/>
+
 
 						<ul className='flex flex-col items-center text-4xl font-bold'>
 							<Link
 								to='/'
-								className='text-neutral-600 hover:text-orange-400 cursor-pointer'
+								className='text-slate-700 hover:text-white ease-in duration-200 cursor-pointer border-b-2 border-slate-700 mb-4 text-center hover:border-white  shadow-slate-700 '
 							>
 								Inicio
 							</Link>
 							<Link
 								to='/routes/Nosotros'
-								className='text-neutral-600 hover:text-orange-400 cursor-pointer'
+								className='text-slate-700 hover:text-white ease-in duration-200 cursor-pointer border-b-2 mb-4  text-center border-slate-700 hover:border-white'
 							>
 								Nosotros
 							</Link>
 							<Link
 								to='/routes/Galeria'
-								className='text-neutral-600 hover:text-orange-400 cursor-pointer'
+								className='text-slate-700 hover:text-white ease-in duration-200 cursor-pointer border-b-2 border-slate-700 mb-4 text-center hover:border-white'
 							>
-								Galeria
+								Galería
 							</Link>
 							<Link
 								to='/routes/Capacitaciones'
-								className='text-neutral-600 hover:text-orange-400 cursor-pointer'
+								className='text-slate-700 hover:text-white ease-in duration-200 cursor-pointer border-b-2 border-slate-700 mb-4 text-center '
 							>
 								Capacitaciones
 							</Link>
 							<Link
 								to='/routes/Blog'
-								className='text-neutral-600 hover:text-orange-400 cursor-pointer'
+								className='text-slate-700 hover:text-white ease-in duration-200 cursor-pointer border-b-2 border-slate-700 mb-2  text-center'
 							>
 								Blog
 							</Link>

@@ -18,7 +18,8 @@ export default function Galeria() {
 		<>
 			<section id='galeria'>
 				<NavBar />
-				<GaleriaDeFotos/>
+				<GaleriaDeFotos />
+				
 				<Form />
 				<Footer />
 			</section>

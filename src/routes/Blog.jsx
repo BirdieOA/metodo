@@ -17,58 +17,52 @@ export default function Blog() {
 		<>
 			<section id='blog'>
 				<NavBar />
-				<h1 className='flex justify-center p-4 pt-28 font-bold text-4xl pb-20'>
+				<h1 className='flex justify-center p-4 pt-28 font-bold text-6xl text-center pb-10 text-slate-700'>
 					A QUIENES AYUDAMOS
 				</h1>
-				<div className='flex flex-col sm:grid gap-4 grid-cols-3 p-4 pb-20'>
-					<div className='flex justify-center'>
+				<div className='text-center sm:flex sm:justify-center gap-10 pb-10 '>
+					<div className='p-4 flex flex-col justify-center items-center'>
 						<img
-							className=' border-4 shadow-xl border-orange-800/30 rounded-xl sm:w-[100px] lg:w-[300px]'
-							src='/caritas1.png'
-							alt=''
-						/>
-					</div>
-
-					<div className='flex justify-center'>
-						<img
-							className=' border-4 shadow-xl border-orange-800/30 rounded-xl sm:w-[100px] lg:w-[300px]'
-							src='/caritas2.png'
-							alt=''
-						/>
-					</div>
-
-					<div className='flex justify-center'>
-						<img
-							className=' border-4 shadow-xl border-orange-800/30 rounded-xl sm:w-[100px] lg:w-[300px]'
-							src='/maternidad.png'
-							alt=''
-						/>
-					</div>
-				</div>
-
-				<div className='flex flex-col sm:grid gap-4 grid-cols-3 p-4 pb-20'>
-					<div className='flex justify-center'>
-						<img
-							className=' border-4 shadow-xl border-orange-800/30 rounded-xl sm:w-[100px] lg:w-[300px]'
+							className=' shadow-lg shadow-orange-700/40  rounded-xl sm:w-[85px] lg:w-[300px]'
 							src='/1blog.png'
 							alt=''
 						/>
+						<h1 className='sm:text-sm lg:text-xl font-poppinsRegular mt-4 text-slate-700'>
+							UNIENDO ESLABONES
+						</h1>
 					</div>
 
-					<div className='flex justify-center'>
+					<div className='p-4 flex flex-col justify-center '>
 						<img
-							className=' border-4 shadow-xl border-orange-800/30 rounded-xl sm:w-[100px] lg:w-[300px]'
+							className=' shadow-lg shadow-orange-700/40 rounded-xl sm:w-[85px] lg:w-[300px]'
 							src='/2blog.png'
 							alt=''
 						/>
+						<h1 className='sm:text-sm lg:text-xl font-poppinsRegular mt-4 text-slate-700'>
+							CARITAS MARTELLI
+						</h1>
 					</div>
 
-					<div className='flex justify-center'>
+					<div className='p-4 flex flex-col justify-center '>
 						<img
-							className=' border-4 shadow-xl border-orange-800/30 rounded-xl sm:w-[100px] lg:w-[300px]'
+							className=' shadow-lg shadow-orange-700/40 rounded-xl sm:w-[85px] lg:w-[300px]'
 							src='/3blog.png'
 							alt=''
 						/>
+						<h1 className='sm:text-sm lg:text-xl font-poppinsRegular mt-4 text-slate-700'>
+							CARITAS OLIVOS
+						</h1>
+					</div>
+
+					<div className='p-4 flex flex-col justify-center items-center '>
+						<img
+							className=' shadow-lg shadow-orange-700/40  rounded-xl sm:w-[85px] lg:w-[300px]'
+							src='/4blog.png'
+							alt=''
+						/>
+						<h1 className='sm:text-sm lg:text-xl font-poppinsRegular mt-4 text-slate-700'>
+							RECALCULANDO NORTE
+						</h1>
 					</div>
 				</div>
 				<Form />

@@ -13,6 +13,7 @@
   "dependencies": {
     "@headlessui/react": "^1.7.14",
     "aos": "^2.3.4",
+    "babylon": "^6.18.0",
     "latest": "^0.2.0",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
@@ -41,7 +42,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.32.2",
     "postcss": "^8.4.23",
-    "prettier": "^2.8.7",
+    "prettier": "2.8.8",
     "tailwindcss": "^3.3.1",
     "vite": "^4.2.0"
   },
