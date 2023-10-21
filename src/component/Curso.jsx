@@ -28,7 +28,7 @@ export default function Curso() {
 						<img
 							src='/Curso.png'
 							alt='Flyer del curso'
-							className='h-[500px] lg:h-[550px] lg:w-[500px]'
+							className='h-[500px] lg:h-[550px] lg:w-[400px]'
 						/>
 						<div className='flex flex-col justify-center items-center '>
 							<a
