@@ -12,13 +12,13 @@ export default function Footer() {
 							<li className='text-slate-700 py-5 text-4xl font-poppinsRegular '>
 								EXPLORE
 							</li>
-							<li className='text-slate-700 hover:scale-110 ease-in duration-200 font-bold text-xl'>
+							<li className='text-slate-700 hover:scale-110 ease-in duration-100 font-bold text-xl'>
 								<Link to='/'>Inicio</Link>
 							</li>
-							<li className='text-slate-700 hover:scale-110 ease-in duration-200 font-bold text-xl'>
+							<li className='text-slate-700 hover:scale-110 ease-in duration-100 font-bold text-xl'>
 								<Link to='/routes/Capacitaciones'>Capacitaciones</Link>
 							</li>
-							<li className='text-slate-700 hover:scale-110 ease-in duration-200 font-bold text-xl'>
+							<li className='text-slate-700 hover:scale-110 ease-in duration-100 font-bold text-xl'>
 								<Link to='/routes/Nosotros'>Nosotros</Link>
 							</li>
 						</ul>
@@ -33,13 +33,13 @@ export default function Footer() {
 						<div className='grid lg:flex gap-10'>
 							<a href='https://www.instagram.com/elmetodoadulma/' className=''>
 								<BsInstagram
-									className='fill-slate-700 cursor-pointer hover:fill-white ease-in duration-200'
+									className='fill-slate-700 cursor-pointer hover:fill-white ease-in duration-100'
 									size={60}
 								/>
 							</a>
 							<a href='https://www.facebook.com/El.metodo.adulma' className=''>
 								<BsFacebook
-									className='fill-slate-700 cursor-pointer hover:fill-white ease-in duration-200'
+									className='fill-slate-700 cursor-pointer hover:fill-white ease-in duration-100'
 									size={60}
 								/>
 							</a>
@@ -53,7 +53,7 @@ export default function Footer() {
 							<li className='text-slate-700 py-5 text-4xl font-poppinsRegular'>
 								INFORMACION
 							</li>
-							<li className='text-slate-700 hover:scale-110 ease-in duration-200 font-bold font-poppinsRegular text-xl'>
+							<li className='text-slate-700 hover:scale-110 ease-in duration-100 font-bold font-poppinsRegular text-xl'>
 								<Link to='/routes/Blog'>Blog</Link>
 							</li>
 							<li className='text-slate-700 font-poppinsRegular text-lg'>

@@ -22,6 +22,8 @@ export default function Flyer() {
 						evolución de la enseñanza, <br /> recuperar el estado físico y la
 						neuro plasticidad. <br /> <br />
 					</h1>
+
+					
 				</div>
 
 				<div className='flex justify-center items-end col-span-3 lg:col-span-1'>

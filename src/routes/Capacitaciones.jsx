@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import NavBar from '../component/NavBar';
 import Footer from '../component/Footer';
 import Form from '../component/Form';
-import CursoDos from '../component/CursoDos'
+// import CursoDos from '../component/CursoDos'
 
 export default function Capacitaciones() {
 	useEffect(() => {
@@ -43,7 +43,10 @@ export default function Capacitaciones() {
 						CURSOS PARA ADULTOS MAYORES
 					</div>
 					<section className='flex flex-col col-span-3 gap-10 p-4'>
-						<CursoDos/>
+						{/* <CursoDos/> */}
+												<h1 className='lg:text-4xl flex items-center font-semibold text-slate-700 bg-[#FDB259] p-4 border-4 border-orange-400 shadow-lg shadow-orange-700/40 rounded-lg '>
+							- Prevención actualizada y continua en la Salud del Adulto Mayor.
+						</h1>
 						<h1 className='lg:text-4xl flex items-center font-semibold text-slate-700 bg-[#FDB259] p-4 border-4 border-orange-400 shadow-lg shadow-orange-700/40 rounded-lg '>
 							- Prevenir el maltrato al Adulto Mayor y enfrentarlo.
 						</h1>
