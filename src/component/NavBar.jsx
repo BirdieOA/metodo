@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ModalMenu from './ModalMenu';
-import { BsInstagram, BsFacebook } from 'react-icons/bs';
+import { BsInstagram, BsFacebook, BsYoutube } from 'react-icons/bs';
 // import Curso from './Curso';
 
 export default function NavBar() {
@@ -18,16 +18,22 @@ export default function NavBar() {
 				</div>
 
 				<div className='flex col-span-1 justify-center sm:justify-start space-x-2'>
-					<a href='https://www.instagram.com/elmetodoadulma/' className=''>
+					<a target="_blank" href='https://www.instagram.com/elmetodoadulma/' className=''>
 						<BsInstagram
 							className='text-slate-700 cursor-pointer hover:fill-white ease-in duration-100'
 							size={32}
 						/>
 					</a>
-					<a href='https://www.facebook.com/El.metodo.adulma' className=''>
+					<a target="_blank" href='https://www.facebook.com/El.metodo.adulma' className=''>
 						<BsFacebook
 							className='text-slate-700 cursor-pointer hover:fill-white ease-in duration-100'
 							size={32}
+						/>
+					</a>
+					<a target="_blank" href='https://www.instagram.com/elmetodoadulma/' className=''>
+						<BsYoutube
+							className='text-slate-700 cursor-pointer hover:fill-white ease-in duration-100'
+							size={36}
 						/>
 					</a>
 				</div>

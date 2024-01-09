@@ -31,24 +31,24 @@ export default function Footer() {
 							<img className='h-[100px]' src='/logoroundedsvg.svg' alt='' />
 						</div>
 						<div className='grid lg:flex gap-10'>
-							<a href="https://www.youtube.com/channel/UCWVEYCAyE61A9bBvWVNLebQ">
-									<BsYoutube
-									className='fill-slate-700 cursor-pointer hover:fill-white ease-in duration-100'
-									size={60}
-								/>
-
-							</a>
-							<a href='https://www.instagram.com/elmetodoadulma/' className=''>
+							<a target="_blank" href='https://www.instagram.com/elmetodoadulma/' className=''>
 								<BsInstagram
 									className='fill-slate-700 cursor-pointer hover:fill-white ease-in duration-100'
 									size={50}
 								/>
 							</a>
-							<a href='https://www.facebook.com/El.metodo.adulma' className=''>
+							<a target="_blank" href='https://www.facebook.com/El.metodo.adulma' className=''>
 								<BsFacebook
 									className='fill-slate-700 cursor-pointer hover:fill-white ease-in duration-100'
 									size={50}
 								/>
+							</a>
+							<a target="_blank" href="https://www.youtube.com/channel/UCWVEYCAyE61A9bBvWVNLebQ">
+									<BsYoutube 
+									className='fill-slate-700 cursor-pointer hover:fill-white ease-in duration-100'
+									size={60}
+								/>
+
 							</a>
 						</div>
 					</div>
