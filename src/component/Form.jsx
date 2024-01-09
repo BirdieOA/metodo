@@ -91,7 +91,7 @@ export default function Form() {
 					</div>
 
 					<input
-						className='px-4 py-2 mb-12 bg-[#FDB259] rounded-lg text-2xl text-slate-700 hover:text-white font-semibold border-2  border-orange-500 hover:border-slate-600 hover:bg-slate-500 cursor-pointer mt-4 ease-in duration-200 shadow-lg shadow-orange-300 '
+						className='px-4 py-2 mb-12 bg-[#FDB259] rounded-lg text-2xl text-slate-700 hover:text-white font-semibold border-2  border-orange-500 hover:border-slate-600 hover:bg-slate-500 cursor-pointer mt-4 ease-in duration-100 shadow-lg shadow-orange-300 '
 						type='submit'
 						value='Enviar'
 					/>

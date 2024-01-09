@@ -39,7 +39,7 @@ export default function ModalTeresa() {
 							material a su investigación científica para la Tercera y Cuarta
 							edad. <br />
 							<br />
-							- Exdocente de la Universidad de Buenos Aires, Facultad de
+							- Ex docente de la Universidad de Buenos Aires, Facultad de
 							Medicina, Escuelas de Enfermería. - Mujer del año en el partido de
 							Vicente López (2013). <br />
 							<br />- Voluntaria de la Maternidad Santa Rosa, entre otros.

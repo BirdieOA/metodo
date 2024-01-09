@@ -29,7 +29,7 @@ export default function VideoHero() {
 						Adultos Mayores que deseen practicarlo
 					</h1>
 					<br />
-					<button className='px-4 py-2 bg-[#FDB259] rounded-lg text-2xl border-4 border-orange-500 hover:border-slate-600 hover:bg-slate-500 text-slate-800  hover:text-white cursor-pointer mt-4 ease-in duration-300'>
+					<button className='px-4 py-2 bg-[#FDB259] rounded-lg text-2xl border-4 border-orange-500 hover:border-slate-600 hover:bg-slate-500 text-slate-800  hover:text-white cursor-pointer mt-4 ease-in duration-100'>
 						<Link to='/routes/Nosotros/' className='text-2xl font-semibold'>
 							SABER MAS
 						</Link>

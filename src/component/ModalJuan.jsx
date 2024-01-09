@@ -14,7 +14,7 @@ export default function ModalJuan() {
 	return (
 		<>
 			<button
-				className='px-4 py-2 bg-[#FDB259] text-slate-700 rounded-lg text-2xl font-semibold border-4  border-orange-400 hover:border-slate-600 hover:bg-slate-500 hover:text-white cursor-pointer mt-4 ease-in duration-200'
+				className='px-4 py-2 bg-[#FDB259] text-slate-700 rounded-lg text-2xl font-semibold border-4  border-orange-400 hover:border-slate-600 hover:bg-slate-500 hover:text-white cursor-pointer mt-4 ease-in duration-100'
 				onClick={openModal}
 			>
 				SABER MAS
@@ -36,7 +36,7 @@ export default function ModalJuan() {
 						</p>
 <div className="flex justify-center items-center">
 						<button
-							className='px-4 py-2 bg-[#FDB259] text-slate-700 rounded-lg text-2xl font-semibold border-4  border-orange-400 hover:border-slate-600 hover:bg-slate-500 hover:text-white cursor-pointer mt-4 ease-in duration-200'
+							className='px-4 py-2 bg-[#FDB259] text-slate-700 rounded-lg text-2xl font-semibold border-4  border-orange-400 hover:border-slate-600 hover:bg-slate-500 hover:text-white cursor-pointer mt-4 ease-in duration-100'
 							onClick={closeModal}
 						>
 							CERRAR

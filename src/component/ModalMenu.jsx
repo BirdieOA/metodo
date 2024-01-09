@@ -32,31 +32,31 @@ export default function ModalMenu() {
 						<ul className='flex flex-col items-center text-4xl font-bold'>
 							<Link
 								to='/'
-								className='text-slate-700 hover:text-white ease-in duration-200 cursor-pointer border-b-2 border-slate-700 mb-4 text-center hover:border-white  shadow-slate-700 '
+								className='text-slate-700 hover:text-white ease-in duration-100 cursor-pointer border-b-2 border-slate-700 mb-4 text-center hover:border-white  shadow-slate-700 '
 							>
 								Inicio
 							</Link>
 							<Link
 								to='/routes/Nosotros'
-								className='text-slate-700 hover:text-white ease-in duration-200 cursor-pointer border-b-2 mb-4  text-center border-slate-700 hover:border-white'
+								className='text-slate-700 hover:text-white ease-in duration-100 cursor-pointer border-b-2 mb-4  text-center border-slate-700 hover:border-white'
 							>
 								Nosotros
 							</Link>
 							<Link
 								to='/routes/Galeria'
-								className='text-slate-700 hover:text-white ease-in duration-200 cursor-pointer border-b-2 border-slate-700 mb-4 text-center hover:border-white'
+								className='text-slate-700 hover:text-white ease-in duration-100 cursor-pointer border-b-2 border-slate-700 mb-4 text-center hover:border-white'
 							>
 								Galería
 							</Link>
 							<Link
 								to='/routes/Capacitaciones'
-								className='text-slate-700 hover:text-white ease-in duration-200 cursor-pointer border-b-2 border-slate-700 mb-4 text-center '
+								className='text-slate-700 hover:text-white ease-in duration-100 cursor-pointer border-b-2 border-slate-700 mb-4 text-center '
 							>
 								Capacitaciones
 							</Link>
 							<Link
 								to='/routes/Blog'
-								className='text-slate-700 hover:text-white ease-in duration-200 cursor-pointer border-b-2 border-slate-700 mb-2  text-center'
+								className='text-slate-700 hover:text-white ease-in duration-100 cursor-pointer border-b-2 border-slate-700 mb-2  text-center'
 							>
 								Blog
 							</Link>

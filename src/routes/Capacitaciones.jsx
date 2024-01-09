@@ -55,7 +55,7 @@ export default function Capacitaciones() {
 						</h1>
 					</section>
 					<button
-						className='px-4 py-2 mb-4 bg-[#FDB259] rounded-lg text-2xl font-semibold border-4 text-slate-700 border-orange-400 hover:border-slate-600 hover:bg-slate-500 hover:text-white cursor-pointer mt-4 ease-in duration-200 shadow-lg shadow-orange-700/40'
+						className='px-4 py-2 mb-4 bg-[#FDB259] rounded-lg text-2xl font-semibold border-4 text-slate-700 border-orange-400 hover:border-slate-600 hover:bg-slate-500 hover:text-white cursor-pointer mt-4 ease-in duration-100 shadow-lg shadow-orange-700/40'
 						onClick={openSaberMas}
 					>
 						SABER MAS
@@ -151,7 +151,7 @@ export default function Capacitaciones() {
 								</p>
 								<div className='flex justify-center'>
 									<button
-										className='lg:text-4xl text-slate-700 font-bold border-2 border-orange-400 bg-[#FDB259] hover:border-slate-500 rounded-lg px-4 py-2 mt-10 hover:text-white hover:bg-slate-600 ease-in duration-200'
+										className='lg:text-4xl text-slate-700 font-bold border-2 border-orange-400 bg-[#FDB259] hover:border-slate-500 rounded-lg px-4 py-2 mt-10 hover:text-white hover:bg-slate-600 ease-in duration-100'
 										onClick={closeSaberMasDos}
 									>
 										CERRAR
