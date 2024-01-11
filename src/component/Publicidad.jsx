@@ -37,16 +37,6 @@ export default function Publicidad() {
 			alt: 'publicidad uniendo eslabones',
 		},
 		{
-			id: '7',
-			imagen: '/7pub.png',
-			alt: 'publicidad hexagono',
-		},
-		{
-			id: '8',
-			imagen: '/p7.png',
-			alt: 'publicidad elmetodo',
-		},
-		{
 			id: '8',
 			imagen: '/9pub.png',
 			alt: 'publicidad elmetodo',

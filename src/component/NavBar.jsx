@@ -30,7 +30,7 @@ export default function NavBar() {
 							size={32}
 						/>
 					</a>
-					<a target="_blank" href='https://www.instagram.com/elmetodoadulma/' className=''>
+					<a target="_blank" href='https://www.youtube.com/channel/UCWVEYCAyE61A9bBvWVNLebQ"' className=''>
 						<BsYoutube
 							className='text-slate-700 cursor-pointer hover:fill-white ease-in duration-100'
 							size={36}
