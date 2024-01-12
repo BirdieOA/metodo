@@ -8,10 +8,11 @@ export default function VideoHero() {
 			element.scrollIntoView({ behavior: 'smooth', block: 'start' });
 		}
 	}, []);
+
 	return (
 		<>
 			<section className='inset-0 z-0' id='inicio'>
-				<figure>
+				<figure >
 					<video
 						className='h-screen sm:w-screen lg:h-screen object-cover md:h-screen md:object-cover lg:w-full  lg:object-cover opacity-80 brightness-50 contrast-125 saturate-0 backdrop-saturate-125'
 						autoPlay
@@ -22,6 +23,10 @@ export default function VideoHero() {
 					</video>
 				</figure>
 			</section>
+			<div className='flex justify-center mt-10'><audio autoPlay controls loop>
+						<source src="public/dsmn.mp3" type="audio/mpeg"></source>
+					</audio></div>
+					
 			<section className='absolute top-0 flex lg:h-screen justify-center items-center align-middle'>
 				<div className='relative z-10 text-white text-center'>
 					<h1 className='text-white font-poppinsRegular text-2xl lg:leading-[70px] lg:text-6xl mt-[200px] sm:mt-[130px] px-10 lg:mt-[100px] lg:px-72'>
