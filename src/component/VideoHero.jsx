@@ -23,9 +23,19 @@ export default function VideoHero() {
 					</video>
 				</figure>
 			</section>
-			<div className='flex justify-center mt-10'><audio autoPlay controls loop>
-						<source src="public/dsmn.mp3" type="audio/mpeg"></source>
-					</audio></div>
+			<div className='flex justify-center mt-10'>
+			<video
+						className='w-[400px]'
+						alt=' video con musica de queen'
+						controls
+						autoPlay
+						loop 
+						src='./dsmn.mp4'>
+
+						</video>
+
+						
+						</div>
 					
 			<section className='absolute top-0 flex lg:h-screen justify-center items-center align-middle'>
 				<div className='relative z-10 text-white text-center'>

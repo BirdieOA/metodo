@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ModalMenu from './ModalMenu';
-import { BsInstagram, BsFacebook, BsYoutube } from 'react-icons/bs';
+import { BsInstagram, BsFacebook } from 'react-icons/bs';
 // import Curso from './Curso';
 
 export default function NavBar() {
@@ -28,12 +28,6 @@ export default function NavBar() {
 						<BsFacebook
 							className='text-slate-700 cursor-pointer hover:fill-white ease-in duration-100'
 							size={32}
-						/>
-					</a>
-					<a target="_blank" href='https://www.youtube.com/channel/UCWVEYCAyE61A9bBvWVNLebQ"' className=''>
-						<BsYoutube
-							className='text-slate-700 cursor-pointer hover:fill-white ease-in duration-100'
-							size={36}
 						/>
 					</a>
 				</div>
