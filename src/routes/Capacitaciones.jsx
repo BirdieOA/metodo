@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import NavBar from '../component/NavBar';
 import Footer from '../component/Footer';
 import Form from '../component/Form';
-// import CursoDos from '../component/CursoDos'
+import CursoTres from '../component/CursoTres'
 
 export default function Capacitaciones() {
 	useEffect(() => {
@@ -46,6 +46,7 @@ export default function Capacitaciones() {
 						{/* <CursoDos/> */}
 												<h1 className='lg:text-4xl flex items-center font-semibold text-slate-700 bg-[#FDB259] p-4 border-4 border-orange-400 shadow-lg shadow-orange-700/40 rounded-lg '>
 							- Prevención actualizada y continua en la Salud del Adulto Mayor.
+							
 						</h1>
 						<h1 className='lg:text-4xl flex items-center font-semibold text-slate-700 bg-[#FDB259] p-4 border-4 border-orange-400 shadow-lg shadow-orange-700/40 rounded-lg '>
 							- Prevenir el maltrato al Adulto Mayor y enfrentarlo.
@@ -104,9 +105,10 @@ export default function Capacitaciones() {
 						CURSOS PARA PROFESIONALES
 					</div>
 					<section className='flex flex-col col-span-3 gap-10 p-4'>
-						<h1 className='lg:text-4xl flex items-center font-semibold text-slate-700 bg-[#FEE6B9] p-4 border-4 border-orange-400 shadow-lg shadow-orange-700/40 rounded-lg '>
-							- “El Método” ADULMA.
-						</h1>
+						<CursoTres/>
+						{/* <h1 className='lg:text-4xl flex items-center font-semibold text-slate-700 bg-[#FEE6B9] p-4 border-4 border-orange-400 shadow-lg shadow-orange-700/40 rounded-lg '>
+							Instructorado: “El Método” ADULMA.
+						</h1> */}
 						<h1 className='lg:text-4xl flex items-center font-semibold text-slate-700 bg-[#FEE6B9] p-4 border-4 border-orange-400 shadow-lg shadow-orange-700/40 rounded-lg  '>
 							- Actividad Física y gimnasia cognitiva. Aptos para el Adulto
 							Mayor.
@@ -138,16 +140,15 @@ export default function Capacitaciones() {
 									patológicas en el envejecimiento y diseñar abordajes de
 									sostenimiento y prevención desde la tercera edad hasta la
 									vejez avanzada, comúnmente llamada gerentes. Abordamos
-									valoraciones integrales para ayudar no solo al anciano, sino
+									valoraciones integrales para ayudar no solo al a la persona mayor, sino
 									también a su familia <br />
-									¿Quiénes pueden hacer nuestros cursos? Toda persona como
-									Familiares, todo profesional que trabaje con Adultos Mayores y
+									¿Quiénes pueden hacer nuestros cursos? Toda persona profesional que trabaje con Adultos Mayores y
 									desee capacitarse para mejorar su bienestar integral, como
 									Acompañantes Terapéuticos, Cuidadores, Enfermeros, Licenciados
 									de la salud, Profesores de Educación Física, Kinesiólogos,
 									Fisioterapeutas, médicos Gerontólogos y Neurólogos. La
-									capacitación incluye cómo armar tu propio grupo de Adultos
-									Mayores con publicidad gratuita.
+									capacitación incluye cómo armar tu propio grupo de personas 
+									mayores con publicidad gratuita.
 								</p>
 								<div className='flex justify-center'>
 									<button
