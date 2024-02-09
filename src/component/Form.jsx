@@ -22,7 +22,7 @@ export default function Form() {
 
 				<form
 					className='px-4'
-					action='https://getform.io/f/22178bb7-898b-4a72-b00a-9f47de971dca'
+					action='https://formsubmit.co/adulmaelmetodo@gmail.com'
 					method='POST'
 					encType='multipart/Curso-El-Metodo'
 				>
