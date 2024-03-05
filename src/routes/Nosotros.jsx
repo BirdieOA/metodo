@@ -23,7 +23,7 @@ export default function Nosotros() {
 				<section className='lg:flex pt-24 justify-center items-center'>
 					<div className='flex flex-col justify-center items-center'>
 						<img
-							className='flex lg:h-[550px] p-4'
+							className='flex lg:h-[550px] p-4 drop-shadow-lg'
 							src='/cardAna.svg'
 							alt='imagen de una tarjeta con datos sobre una persona'
 						/>
@@ -33,12 +33,12 @@ export default function Nosotros() {
 				<section>
 					<div className='flex flex-col md:flex-row justify-center items-center mt-20 mb-10 lg:gap-40'>
 						<img
-							className='flex h-[500px] lg:h-[550px] p-4'
+							className='flex h-[500px] lg:h-[550px] drop-shadow-lg p-4'
 							src='/cardJuanPablo.svg'
 							alt='imagen de una tarjeta con datos sobre una persona'
 						/>
 						<img
-							className='flex h-[500px] lg:h-[550px] p-4'
+							className='flex h-[500px] lg:h-[550px] p-4 drop-shadow-lg'
 							src='/cardMariela.svg'
 							alt='imagen de una tarjeta con datos sobre una persona'
 						/>
