@@ -24,20 +24,25 @@ export default function Nosotros() {
 					<div className='flex flex-col justify-center items-center'>
 						<img
 							className='flex lg:h-[550px] p-4'
-							src='/cardana.svg'
+							src='/cardAna.svg'
 							alt='imagen de una tarjeta con datos sobre una persona'
 						/>
 						<ModalTeresa />
 					</div>
 				</section>
 				<section>
-					<div className='flex flex-col justify-center items-center mt-20 mb-10'>
+					<div className='flex flex-col md:flex-row justify-center items-center mt-20 mb-10 lg:gap-40'>
 						<img
-							className='flex lg:h-[550px] p-4'
-							src='/cardjuan.svg'
+							className='flex h-[500px] lg:h-[550px] p-4'
+							src='/cardJuanPablo.svg'
 							alt='imagen de una tarjeta con datos sobre una persona'
 						/>
-						<ModalJuan />
+						<img
+							className='flex h-[500px] lg:h-[550px] p-4'
+							src='/cardMariela.svg'
+							alt='imagen de una tarjeta con datos sobre una persona'
+						/>
+						{/* <ModalJuan /> */}
 					</div>
 					<div className='flex items-center justify-center z-0'>
 						<BsFillHandIndexThumbFill
