@@ -46,16 +46,32 @@ export default function Flyer() {
 				<div className='flex justify-center items-end col-span-3 lg:col-span-1'>
 					<div className='flex flex-col justify-center p-4 w-[350px] sm:w-[350px] lg:h-[400px] lg:w-[400px] text-2xl  rounded-md bg-[#FEE6B9] shadow-xl shadow-orange-700/40 border-8 border-orange-400 sm:text-3xl text-center  lg:col-span-1'>
 						<p className='text-[#1B365C] mx-2 font-libreBaskerville'>
-							LUNES Y MIERCOLES
+							LUNES Y MIÉRCOLES
 						</p>
 						<p className='text-[#1B365C] mb-8 font-libreBaskerville'>
 							{' '}
-							DE 17.00 A 18.00 HRS
+							DE 14.45 A 15.45 HRS
 						</p>
+				
 						<p className='text-[#1B365C] font-libreBaskerville'>CACYP</p>
 						<p className='text-[#1B365C] font-libreBaskerville'>RUTA 202 Y</p>
 						<p className='text-[#1B365C] font-libreBaskerville'>BALBASTRO</p>
 						<p className='text-[#1B365C] font-libreBaskerville'>DON TORCUATO</p>
+					</div>
+				</div>
+								<div className='flex justify-center items-end col-span-3 lg:col-span-1'>
+					<div className='flex flex-col justify-center p-4 w-[350px] sm:w-[350px] lg:h-[400px] lg:w-[400px] text-2xl  rounded-md bg-[#FEE6B9] shadow-xl shadow-orange-700/40 border-8 border-orange-400 sm:text-3xl text-center  lg:col-span-1'>
+						<p className='text-[#1B365C] mx-3 font-libreBaskerville'>
+							MIÉRCOLES Y VIERNES
+						</p>
+						<p className='text-[#1B365C] mb-8 font-libreBaskerville'>
+						
+							DE 10.00 A 11.00 HRS
+						</p>
+						<p className='text-[#1B365C] font-libreBaskerville'>AMIGOS DE FLORIDA</p>
+						<p className='text-[#1B365C] font-libreBaskerville'>GRAL. JOSE DE SAN MARTIN</p>
+						<p className='text-[#1B365C] font-libreBaskerville'>2442</p>
+						<p className='text-[#1B365C] font-libreBaskerville'>FLORIDA</p>
 					</div>
 				</div>
 				<div className='col-span-3 lg:col-span-1'>
@@ -68,7 +84,7 @@ export default function Flyer() {
 						<Publicidad />
 					</div>
 				</div>
-				<div className='lg:col-span-3 flex col-span-3 sm:justify-center text-center lg:justify-end text-slate-700 mt-10'>
+				<div className='lg:col-span-3 flex col-span-3 justify-center text-center text-slate-700 mt-10'>
 					<span className='text-red-600'>*</span> Solicite su espacio
 					publicitario a través de contacto
 				</div>
