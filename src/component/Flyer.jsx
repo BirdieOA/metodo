@@ -27,7 +27,7 @@ export default function Flyer() {
 				</div>
 
 				<div className='flex justify-center items-end col-span-3 lg:col-span-1'>
-					<div className='flex flex-col justify-center p-4 w-[350px] sm:w-[350px] lg:h-[400px] lg:w-[400px] text-2xl rounded-md bg-[#FEE6B9] shadow-xl shadow-orange-700/40 border-8 border-orange-400 sm:text-3xl text-center  lg:col-span-1'>
+					<div className='flex flex-col justify-center p-4 w-[350px] sm:w-[350px] lg:h-[400px] lg:w-[400px] text-2xl rounded-md bg-[#FFEFD0] shadow-xl shadow-orange-700/40 border-8 border-orange-400 sm:text-3xl text-center  lg:col-span-1'>
 						<p className='text-[#1B365C] font-libreBaskerville '>
 							LUNES Y JUEVES
 						</p>
@@ -44,7 +44,7 @@ export default function Flyer() {
 				</div>
 
 				<div className='flex justify-center items-end col-span-3 lg:col-span-1'>
-					<div className='flex flex-col justify-center p-4 w-[350px] sm:w-[350px] lg:h-[400px] lg:w-[400px] text-2xl  rounded-md bg-[#FEE6B9] shadow-xl shadow-orange-700/40 border-8 border-orange-400 sm:text-3xl text-center  lg:col-span-1'>
+					<div className='flex flex-col justify-center p-4 w-[350px] sm:w-[350px] lg:h-[400px] lg:w-[400px] text-2xl  rounded-md bg-[#FFEFD0] shadow-xl shadow-orange-700/40 border-8 border-orange-400 sm:text-3xl text-center  lg:col-span-1'>
 						<p className='text-[#1B365C] mx-2 font-libreBaskerville'>
 							LUNES Y MIÉRCOLES
 						</p>
@@ -60,7 +60,7 @@ export default function Flyer() {
 					</div>
 				</div>
 								<div className='flex justify-center items-end col-span-3 lg:col-span-1'>
-					<div className='flex flex-col justify-center p-4 w-[350px] sm:w-[350px] lg:h-[400px] lg:w-[400px] text-2xl  rounded-md bg-[#FEE6B9] shadow-xl shadow-orange-700/40 border-8 border-orange-400 sm:text-3xl text-center  lg:col-span-1'>
+					<div className='flex flex-col justify-center p-4 w-[350px] sm:w-[350px] lg:h-[400px] lg:w-[400px] text-2xl  rounded-md bg-[#FFEFD0] shadow-xl shadow-orange-700/40 border-8 border-orange-400 sm:text-3xl text-center  lg:col-span-1'>
 						<p className='text-[#1B365C] mx-3 font-libreBaskerville'>
 							MIÉRCOLES Y VIERNES
 						</p>
@@ -74,16 +74,16 @@ export default function Flyer() {
 						<p className='text-[#1B365C] font-libreBaskerville'>FLORIDA</p>
 					</div>
 				</div>
-				<div className='col-span-3 lg:col-span-1'>
-					<div className='col-span-3 flex justify-center lg:justify-end lg:pb-5 lg:pr-5'>
-						<h1 className='mt-20 text-xl text-center lg:pr-20 lg:text-2xl text-slate-700 font-poppinsRegular'>
+				<div className='col-span-3 lg:col-span-3'>
+					<div className='col-span-3 flex justify-center lg:pb-5'>
+						<h1 className='mt-20 text-2xl text-center lg:text-2xl text-slate-700 font-poppinsRegular'>
 							ESPACIO PUBLICITARIO
 						</h1>
 					</div>
-					<div className='flex flex-col justify-center items-center'>
+				</div>
+					<div className='col-span-3 lg:col-span-3 lg:mx-auto lg:mt-4'>
 						<Publicidad />
 					</div>
-				</div>
 				<div className='lg:col-span-3 flex col-span-3 justify-center text-center text-slate-700 mt-10'>
 					<span className='text-red-600'>*</span> Solicite su espacio
 					publicitario a través de contacto

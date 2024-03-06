@@ -74,7 +74,7 @@ export default function Publicidad() {
 	return (
 		<>
 			<div className=''>
-				<div className='h-[500px] w-[350px] sm:w-[600px] sm:h-[450px] lg:w-[400px] lg:h-[400px] m-auto py-16 lg:py-0 lg:px-0 lg:ml-0 relative '>
+				<div className='h-[500px] w-[350px] sm:h-[450px] lg:w-[400px] lg:h-[400px] m-auto py-16 lg:py-0 lg:px-0 lg:ml-0 relative  '>
 					<div
 						style={{ backgroundImage: `url(${slides[currentIndex].imagen})` }}
 						className='w-full h-full rounded-lg bg-center bg-cover duration-500 shadow-lg shadow-orange-700/40 border-8 border-orange-400'
