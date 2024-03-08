@@ -17,7 +17,7 @@ export default function Blog() {
 		<>
 			<section id='blog'>
 				<NavBar />
-				<h1 className='flex justify-center p-4 pt-28 font-bold text-6xl text-center pb-10 text-slate-700'>
+				<h1 className='flex justify-center p-4 pt-28 font-semibold font-poppinsRegular text-6xl text-center pb-10 text-slate-700'>
 					A QUIENES AYUDAMOS
 				</h1>
 				<div className='text-center sm:flex sm:justify-center gap-10 pb-10 '>

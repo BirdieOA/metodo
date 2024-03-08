@@ -29,7 +29,7 @@ export default function GaleriaDeFotos() {
 						/>
 					))}
 				</div>
-				<h1 className='flex text-6xl sm:text-6xl lg:text-6xl justify-center text-slate-700 font-semibold'>
+				<h1 className='flex text-6xl sm:text-6xl lg:text-6xl justify-center text-slate-700 font-semibold font-poppinsRegular'>
 					VIDEOS
 				</h1>
 				<Videos/>
