@@ -15,7 +15,7 @@ export default function Curso() {
 
 	return (
 		<>
-			<button onClick={openModal} className='lg:text-4xl flex items-center font-semibold text-slate-700 bg-[#FEE6B9] p-4 border-4 border-orange-400 shadow-lg shadow-orange-700/40 rounded-lg hover:scale-105 ease-in duration-200'>
+			<button onClick={openModal} className='lg:text-4xl flex items-center font-semibold text-slate-700 bg-[#FEE6B9] p-4 border-4 border-orange-400 shadow-lg shadow-orange-700/40 rounded-lg hover:scale-105 ease-in duration-200 font-poppinsRegular'>
 				Instructorado: “El Método” ADULMA.
 			</button>
 

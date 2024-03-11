@@ -108,7 +108,7 @@ export default function Capacitaciones() {
 						{/* <h1 className='lg:text-4xl flex items-center font-semibold text-slate-700 bg-[#FEE6B9] p-4 border-4 border-orange-400 shadow-lg shadow-orange-700/40 rounded-lg '>
 							Instructorado: “El Método” ADULMA.
 						</h1> */}
-						<h1 className='lg:text-4xl flex items-center font-semibold text-slate-700 bg-[#FEE6B9] p-4 border-4 border-orange-400 shadow-lg shadow-orange-700/40 rounded-lg  '>
+						<h1 className='lg:text-4xl flex items-center font-poppinsRegular font-semibold text-slate-700 bg-[#FEE6B9] p-4 border-4 border-orange-400 shadow-lg shadow-orange-700/40 rounded-lg   '>
 							- Actividad Física y gimnasia cognitiva. Aptos para el Adulto
 							Mayor.
 						</h1>
