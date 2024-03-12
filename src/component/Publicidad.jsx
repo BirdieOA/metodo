@@ -51,7 +51,18 @@ export default function Publicidad() {
 			imagen: '/11pub.png',
 			alt: 'publicidad elmetodo',
 		},
+			{
+			id: '11',
+			imagen: '/12pub.png',
+			alt: 'publicidad elmetodo',
+		},
+				{
+			id: '12',
+			imagen: '/13pub.png',
+			alt: 'publicidad elmetodo',
+		},
 	];
+	
 
 	const [currentIndex, setCurrentIndex] = useState(0);
 
