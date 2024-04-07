@@ -52,29 +52,25 @@ export default function Nosotros() {
 					</div>
 				</section>
 
-				<section className='bg-[#FDB259] lg:grid grid-cols-2 py-20'>
-					<div className='flex items-start justify-center mt-20'>
-						<div className='flex flex-col items-center justify-center col-span-1 px-4 lg:px-0'>
+				<section className='bg-[#FDB259] lg:grid grid-cols-2 py-20 lg:px-32 '>
+					<div className='flex items-start justify-center mt-20 '>
+						<div className='flex flex-col items-center justify-center col-span-1 px-4 lg:px-10'>
 							<p className='font-bold text-2xl lg:text-4xl text-center p-4 font-poppinsRegular text-slate-700 bg-[#FEE6B9] rounded-lg shadow-lg '>
 								¿Por qué enseñar El Método?
 							</p>
 							<div className='bg-[#FEE6B9]/20 mt-10 ml-3 mr-3 lg:ml-6 lg:mr-6 rounded-lg shadow-md '>
-
-								<img					
-							src="/metodo1.svg"
-							alt="metodo1"
-							className='h-[280px] sm:w-[500px] lg:w-full object-cover shadow-orange-700/50'
-
-						/>
+								<img
+									src='/metodo1.svg'
+									alt='metodo1'
+									className='h-[280px] sm:w-[500px] lg:w-full p-4 shadow-orange-700/50'
+								/>
 							</div>
 							<div className='bg-[#FEE6B9]/20 mt-10 ml-3 mr-3 lg:ml-6 lg:mr-6 rounded-lg shadow-md '>
-		
-											<img					
-							src="/metodo2.svg"
-							alt="metodo2"
-							className='h-[280px] sm:w-[500px] lg:w-full object-cover shadow-orange-700/50'
-
-						/>
+								<img
+									src='/metodo2.svg'
+									alt='metodo2'
+									className='h-[280px] sm:w-[500px] lg:w-full p-4 shadow-orange-700/50'
+								/>
 							</div>
 						</div>{' '}
 					</div>
@@ -84,38 +80,32 @@ export default function Nosotros() {
 								¿Por qué aprender El Método?
 							</p>
 							<div className='bg-[#FEE6B9]/20 mt-10 ml-6 mr-6 rounded-lg shadow-md'>
-
-											<img					
-							src="/metodo3.svg"
-							alt="metodo1"
-							className='h-[265px] sm:h-[280px] sm:w-[500px] lg:w-full object-cover shadow-orange-700/50'
-
-						/>
+								<img
+									src='/metodo3.svg'
+									alt='metodo1'
+									className='h-[265px] sm:h-[280px] sm:w-[500px] lg:w-full p-4 shadow-orange-700/50'
+								/>
 							</div>
 							<div className='bg-[#FEE6B9]/20 mt-10 ml-6 mr-6 rounded-lg shadow-md'>
-											<img					
-							src="/metodo4.svg"
-							alt="metodo1"
-							className='h-[265px] sm:h-[280px] sm:w-[500px] lg:w-full object-cover shadow-orange-700/50'
-
-						/>
+								<img
+									src='/metodo4.svg'
+									alt='metodo1'
+									className='h-[265px] sm:h-[280px] sm:w-[500px] lg:w-full p-4 shadow-orange-700/50'
+								/>
 							</div>
 						</div>
 					</div>
-					<div className='col-span-2 mt-20 lg:mb-10 flex justify-center'>
-									<img					
-							src="/metodo5.svg"
-							alt="metodo1"
-							className='hidden md:block md:w-[400px] lg:w-[800px] lg:h-[300px]'
-
+					<div className='col-span-2 mt-20 lg:mb-10 flex justify-center p-4'>
+						<img
+							src='/metodo5.svg'
+							alt='metodo1'
+							className='hidden md:block md:w-[500px] lg:w-[800px] lg:h-[300px] drop-shadow-lg p-4'
 						/>
-						<img					
-							src="/metodo6.svg"
-							alt="metodo1"
-							className='h-[400px] sm:hidden'
-
+						<img
+							src='/metodo6.svg'
+							alt='metodo1'
+							className='h-[420px] sm:hidden'
 						/>
-
 					</div>
 				</section>
 				<Form />
