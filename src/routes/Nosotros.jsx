@@ -46,7 +46,7 @@ export default function Nosotros() {
 					</div>
 					<div className='flex items-center justify-center z-0'>
 						<BsFillHandIndexThumbFill
-							className='fill-orange-500 rotate-180 animate-pulse mb-4'
+							className='fill-orange-400 rotate-180 animate-pulse mb-4'
 							size={60}
 						/>
 					</div>
@@ -59,23 +59,22 @@ export default function Nosotros() {
 								¿Por qué enseñar El Método?
 							</p>
 							<div className='bg-[#FEE6B9]/20 mt-10 ml-3 mr-3 lg:ml-6 lg:mr-6 rounded-lg shadow-md '>
-								<p className='font-bold text-2xl p-10  text-center text-slate-700'>
-									Porque <span className='text-white'>"El Método"</span> es un
-									conjunto de elementos, actividades, temas y asuntos, que
-									competen a los <span className='text-white'>ADUL</span>tos{' '}
-									<span className='text-white'>MA</span>yores, para que
-									proyectos, ideas y ganas de vivir la vida, puedan llevarlos a
-									cabo todos y cada uno cuando está bien enseñado.
-								</p>
+
+								<img					
+							src="/metodo1.svg"
+							alt="metodo1"
+							className='h-[280px] sm:w-[500px] lg:w-full object-cover shadow-orange-700/50'
+
+						/>
 							</div>
 							<div className='bg-[#FEE6B9]/20 mt-10 ml-3 mr-3 lg:ml-6 lg:mr-6 rounded-lg shadow-md '>
-								<p className='font-bold text-2xl p-10 text-center text-slate-700'>
-									<span className='text-white'>“El Método” </span> apuesta a sus
-									capacidades, sin subestimar aptitudes, virtudes y cualidades,
-									desafiándolos siempre a ir por más, como la gente real de las
-									imágenes de esta web, todos ellos practican{' '}
-									<span className='text-white'>“El Método” </span>.
-								</p>
+		
+											<img					
+							src="/metodo2.svg"
+							alt="metodo2"
+							className='h-[280px] sm:w-[500px] lg:w-full object-cover shadow-orange-700/50'
+
+						/>
 							</div>
 						</div>{' '}
 					</div>
@@ -85,41 +84,38 @@ export default function Nosotros() {
 								¿Por qué aprender El Método?
 							</p>
 							<div className='bg-[#FEE6B9]/20 mt-10 ml-6 mr-6 rounded-lg shadow-md'>
-								<p className='font-bold text-2xl p-10 text-center text-slate-700 '>
-									Porque <span className='text-white'>“El Método” </span>{' '}
-									recupera habilidades pérdidas enlentecidas, mentes
-									desorientadas, cuerpos rígidos y todo lo que el Adulto Mayor
-									comienza a experimentar avanzado el paso de los años. Entonces
-									¿la prevención en la vejez es factible? El paso de los años es
-									para todos, no se salva nadie.{' '}
-								</p>
+
+											<img					
+							src="/metodo3.svg"
+							alt="metodo1"
+							className='h-[265px] sm:h-[280px] sm:w-[500px] lg:w-full object-cover shadow-orange-700/50'
+
+						/>
 							</div>
 							<div className='bg-[#FEE6B9]/20 mt-10 ml-6 mr-6 rounded-lg shadow-md'>
-								<p className='font-bold text-2xl p-10 text-center text-slate-700 '>
-									El cuestionamiento debería ser ¿Cómo quiero vivir esta etapa?
-									La salud Física, Mental y Social son la clave.{' '}
-									<span className='text-white'>“El Método” </span> te enseña
-									todo tipo de tips para tu Salud Integral. Sólo debés probarlo,
-									sentirlo y luego comparar cómo estabas antes de practicarlo.
-									Que no te lo cuenten, experimentalo vos mismo.
-								</p>
+											<img					
+							src="/metodo4.svg"
+							alt="metodo1"
+							className='h-[265px] sm:h-[280px] sm:w-[500px] lg:w-full object-cover shadow-orange-700/50'
+
+						/>
 							</div>
 						</div>
 					</div>
-					<div className='col-span-2 bg-[#FEE6B9]/20 mt-10 lg:mb-20  mx-6 flex justify-center rounded-lg shadow-md'>
-						<p className='font-bold text-2xl p-10 text-center text-slate-700'>
-							Hace más de 25 años que trabajamos con
-							<span className='text-white'> Adul</span>tos
-							<span className='text-white'> Ma</span>yores y realizamos un
-							trabajo de investigación siempre consultado con un grupo de
-							trabajo interdisciplinario de médicos clínicos, cardiólogos,
-							traumatólogos, gerontólogos, neurólogos, psiquiatras, psicólogos,
-							kinesiólogos, profesores de educación física, nutricionistas,
-							siempre actualizado a la época actual, porque{' '}
-							<span className='text-white'>“El Método” </span> no espera épocas
-							mejores, <span className='text-white'>“El Método” </span>
-							hace mejores las épocas.
-						</p>
+					<div className='col-span-2 mt-20 lg:mb-10 flex justify-center'>
+									<img					
+							src="/metodo5.svg"
+							alt="metodo1"
+							className='hidden md:block md:w-[400px] lg:w-[800px] lg:h-[300px]'
+
+						/>
+						<img					
+							src="/metodo6.svg"
+							alt="metodo1"
+							className='h-[400px] sm:hidden'
+
+						/>
+
 					</div>
 				</section>
 				<Form />
