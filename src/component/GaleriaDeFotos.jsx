@@ -24,7 +24,7 @@ export default function GaleriaDeFotos() {
 							key={index}
 							src={image}
 							alt={`Image ${index + 1}`}
-							className='shadow-lg h-[400px] sm:w-[500px] lg:w-full object-cover rounded-[25px] shadow-orange-700/50'
+							className='shadow-lg h-[400px] sm:w-[500px] lg:w-full object-cover rounded-lg shadow-orange-700/50'
 							loading='lazy'
 						/>
 					))}

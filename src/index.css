@@ -23,10 +23,9 @@
 
 @font-face {
 	font-family: 'Libre-Baskerville';
-	src: url('./fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf') format('truetype');
+	src: url('./fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf')
+		format('truetype');
 }
-
-
 
 * {
 	font-family: Poppins-Thin;
@@ -41,17 +40,14 @@ body {
 	animation-duration: 15s;
 }
 
-::-webkit-scrollbar{
-width: 0.9em;
+::-webkit-scrollbar {
+	width: 15px;
 }
 
-::-webkit-scrollbar-track{
-	background: #334155;
+::-webkit-scrollbar-track {
+	background: #fdb259;
 }
 
-::-webkit-scrollbar-thumb{
-	border-radius:100vh;
-	background: #64748b;
-
-
+::-webkit-scrollbar-thumb {
+	background: #4b3821;
 }
