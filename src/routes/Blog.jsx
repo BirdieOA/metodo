@@ -23,7 +23,7 @@ export default function Blog() {
 				<div className='text-center sm:flex sm:justify-center gap-10 pb-10 '>
 					<div className='p-4 flex flex-col justify-center items-center'>
 						<img
-							className=' shadow-lg shadow-orange-700/40  rounded-xl sm:w-[85px] lg:w-[300px]'
+							className=' shadow-lg shadow-orange-700/40  rounded-lg sm:w-[85px] lg:w-[300px]'
 							src='/1blog.png'
 							alt=''
 						/>
@@ -34,7 +34,7 @@ export default function Blog() {
 
 					<div className='p-4 flex flex-col justify-center '>
 						<img
-							className=' shadow-lg shadow-orange-700/40 rounded-xl sm:w-[85px] lg:w-[300px]'
+							className=' shadow-lg shadow-orange-700/40 rounded-lg sm:w-[85px] lg:w-[300px]'
 							src='/2blog.png'
 							alt=''
 						/>
@@ -45,7 +45,7 @@ export default function Blog() {
 
 					<div className='p-4 flex flex-col justify-center '>
 						<img
-							className=' shadow-lg shadow-orange-700/40 rounded-xl sm:w-[85px] lg:w-[300px]'
+							className=' shadow-lg shadow-orange-700/40 rounded-lg sm:w-[85px] lg:w-[300px]'
 							src='/3blog.png'
 							alt=''
 						/>
@@ -56,7 +56,7 @@ export default function Blog() {
 
 					<div className='p-4 flex flex-col justify-center items-center '>
 						<img
-							className=' shadow-lg shadow-orange-700/40  rounded-xl sm:w-[85px] lg:w-[300px]'
+							className=' shadow-lg shadow-orange-700/40  rounded-lg sm:w-[85px] lg:w-[300px]'
 							src='/4blog.png'
 							alt=''
 						/>
