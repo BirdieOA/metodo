@@ -28,9 +28,9 @@ export default function Curso() {
 						<img
 							src='/CursoTres.png'
 							alt='Flyer del curso'
-							className='h-[500px] lg:h-[500px] lg:w-[500px]'
+							className='h-[450px]  lg:h-[500px] lg:w-[500px] rounded-sm'
 						/>
-						<div className='flex flex-col justify-center items-center '>
+						<div className='flex flex-col justify-center items-center'>
 							<a
 								href='#form'
 								className='px-1 py-2 text-center bg-[#FDB259] text-slate-700 rounded-lg lg:text-xl font-poppinsRegular border-4  border-orange-400 hover:border-slate-600 hover:bg-slate-500 hover:text-white cursor-pointer mt-4 ease-in duration-200'

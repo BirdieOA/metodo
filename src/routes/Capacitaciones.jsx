@@ -41,10 +41,10 @@ export default function Capacitaciones() {
 
 <section id='capacitaciones'>
 				<div className='flex flex-col bg-[#FDB259] lg:h-screen justify-between items-center'>
-					<div className='lg:mt-28 font-semibold text-4xl p-8 text-center lg:text-6xl text-slate-700 font-poppinsRegular'>
+					<div className='mt-24 font-semibold text-4xl p-8 text-center lg:text-6xl text-slate-700 font-poppinsRegular'>
 						CURSOS PARA PROFESIONALES
 					</div>
-					<section className='flex flex-col col-span-3 gap-10 p-4'>
+					<section className='flex flex-col col-span-3 gap-10 p-4 '>
 						<CursoTres/>
 						{/* <h1 className='lg:text-4xl flex items-center font-semibold text-slate-700 bg-[#FEE6B9] p-4 border-4 border-orange-400 shadow-lg shadow-orange-700/40 rounded-lg '>
 							Instructorado: “El Método” ADULMA.
@@ -108,7 +108,7 @@ export default function Capacitaciones() {
 			</section>
 
 				<div className='flex flex-col bg-[#FEE6B9] lg:h-screen justify-between items-center'>
-					<div className='mt-16 lg:mt-28 font-semibold text-4xl p-4 text-center lg:text-6xl text-slate-700 font-poppinsRegular'>
+					<div className='mt-16 lg:mt-24 font-semibold text-4xl p-4 text-center lg:text-6xl text-slate-700 font-poppinsRegular'>
 						CURSOS PARA ADULTOS MAYORES
 					</div>
 					<section className='flex flex-col col-span-3 gap-10 p-4'>
@@ -168,7 +168,7 @@ export default function Capacitaciones() {
 				</div>
 			</section>
 			
-			<h1 className='flex justify-center text-3xl text-center lg:text-6xl font-semibold font-poppinsRegular pt-4 text-slate-700'>
+			<h1 className='lg:mt-24 flex justify-center text-3xl text-center lg:text-6xl font-semibold font-poppinsRegular pt-4 text-slate-700'>
 				GALERIA DE FOTOS DE CAPACITACIONES
 			</h1>
 			<section className='grid lg:grid-cols-3 gap-10 p-5 sm:p-20 mb-10'>
