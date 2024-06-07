@@ -49,7 +49,7 @@ export default function ModalTeresa() {
 							presentar su último libro.
 							<br />
 							<br />
-							<a href='https://drive.google.com/file/d/1_NqgEPInz2QXIx-t2kx5S37RWLZXXxHb/view?pli=1'>
+							<a href='https://drive.google.com/file/d/1rs6ElhZm79yoHfcu2UriYr93AF5dxzLN/view'>
 								<span className='flex  text-2xl font-semibold text-blue-400 hover:text-[#0066ff] underline underline-offset-5 pr-2 cursor-pointer'>
 									<BsFillHandIndexThumbFill
 										className='fill-slate-700 rotate-90 animate-pulse mr-3'
