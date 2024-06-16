@@ -1,6 +1,6 @@
 import React from 'react';
-import Videos from './Videos';
-
+import VideosGaleria from './VideosGaleria';
+// import Videos from './Videos';
 
 export default function GaleriaDeFotos() {
 	const images = [
@@ -32,7 +32,8 @@ export default function GaleriaDeFotos() {
 				<h1 className='flex text-6xl sm:text-6xl lg:text-6xl justify-center text-slate-700 font-semibold font-poppinsRegular'>
 					VIDEOS
 				</h1>
-				<Videos/>
+				{/* <Videos/> */}
+				<VideosGaleria />
 			</section>
 		</>
 	);
