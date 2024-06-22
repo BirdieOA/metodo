@@ -60,13 +60,13 @@ export default function Capacitaciones() {
 									<h1 className='text-3xl font-black text-slate-700 mb-4'>
 										PARA PROFESIONALES
 									</h1>
-									<p className='text-xl font-black text-slate-700 bg-white rounded-lg shadow-lg p-8 max-h-[400px] sm:max-h-[120px] lg:max-h-[600px] overflow-y-auto lg:max-w-[1100px]'>
+									<p className='text-xl font-black text-slate-700 bg-white rounded-lg shadow-lg p-8 max-h-[400px] sm:max-h-[120px] lg:max-h-[600px] overflow-y-auto lg:max-w-[1100px] lg:text-center'>
 										Si estás buscando nuevas oportunidades laborales y querés
 										contribuir al bienestar de la población de Adultos mayores,
 										mediante capacitaciones podrás aprender, aplicar estrategias
 										y herramientas que promuevan el bienestar del adulto,
 										creando habilidades de autovaloración, autocuidado y
-										prevención de situaciones de riesgo. <br />
+										prevención de situaciones de riesgo.  <br></br>
 										Esta formación se realiza desde una mirada
 										interdisciplinaria de la vejez, para promover la autonomía
 										de las personas mayores, diferenciar necesidades y criterios
@@ -75,7 +75,7 @@ export default function Capacitaciones() {
 										abordajes de sostenimiento y prevención desde la tercera
 										edad hasta la vejez avanzada, comúnmente llamada gerentes.
 										Abordamos valoraciones integrales para ayudar no solo al a
-										la persona mayor, sino también a su familia <br />
+										la persona mayor, sino también a su familia. <br></br> 
 										¿Quiénes pueden hacer nuestros cursos? Toda persona
 										profesional que trabaje con Adultos Mayores y desee
 										capacitarse para mejorar su bienestar integral, como
@@ -87,7 +87,7 @@ export default function Capacitaciones() {
 									</p>
 									<div className='flex justify-center'>
 										<button
-											className='lg:text-4xl text-slate-700 font-bold border-2 border-orange-400 bg-[#FDB259] hover:border-slate-500 rounded-lg px-4 py-2 mt-10 hover:text-white hover:bg-slate-600 ease-in duration-100'
+											className='lg:text-4xl text-slate-700 font-bold border-2 border-orange-400 bg-[#FDB259] hover:border-slate-500 rounded-lg px-4 py-2 mt-6 hover:text-white hover:bg-slate-600 ease-in duration-100'
 											onClick={closeSaberMasDos}
 										>
 											CERRAR
@@ -133,13 +133,13 @@ export default function Capacitaciones() {
 								<h1 className='text-3xl font-black text-slate-700 mb-4'>
 									ADULTOS MAYORES
 								</h1>
-								<p className='text-xl font-black text-slate-700 bg-white rounded-lg shadow-lg p-8 max-h-[400px] sm:max-h-[120px] lg:max-h-[600px] overflow-y-auto lg:max-w-[1100px]'>
+								<p className='text-xl font-black text-slate-700 bg-white rounded-lg shadow-lg p-8 max-h-[400px] sm:max-h-[120px] lg:max-h-[600px] overflow-y-auto lg:max-w-[1100px] text-center'>
 									Estos cursos los diseñamos pensando en las necesidades y
 									requerimientos del Adulto Mayor, los cuales muchos manejan la
 									tecnología online, pero otros no. <br />
 									De todos modos, la enseñanza presencial resignifica esta etapa
 									de la vida y posibilita el desarrollo personal de cada
-									individuo. <br />
+									individuo. <br /><br/>
 									Realizar cursos logra el empoderamiento de una actitud vital,
 									manteniéndote actualizado con respecto a la salud física,
 									mental y nutricional. Todos pueden hacerlo. Ver cursos para

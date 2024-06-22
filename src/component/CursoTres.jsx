@@ -21,14 +21,14 @@ export default function Curso() {
 
 			{isOpen && (
 				<div
-					className='fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-900 bg-opacity-90 z-20'
+					className='fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-900 bg-opacity-90 z-20 '
 					onClick={closeModal}
 				>
-					<div className='flex flex-col items-center justify-center w-full h-screen sm:w-full lg:w-[1100px] mt-20 p-4'>
+					<div className='flex flex-col items-center justify-center w-full h-screen sm:w-full lg:w-[1100px] mt-20 p-4 backdrop-blur-lg'>
 						<img
-							src='/CursoTres.png'
+							src='/CursoTresHorizontal.svg'
 							alt='Flyer del curso'
-							className='h-[450px]  lg:h-[500px] lg:w-[500px] rounded-sm'
+							className='h-[450px]  lg:h-[500px] lg:w-[850px] rounded-sm'
 						/>
 						<div className='flex flex-col justify-center items-center'>
 							<a

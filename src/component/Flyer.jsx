@@ -6,7 +6,7 @@ export default function Flyer() {
 	return (
 		<>
 			<section
-				className=' px-10 lg:px-20 pt-10 lg:pt-24 pb-10 font-semibold gap-4'
+				className=' px-10 lg:px-20 pt-10 lg:pt-16 pb-10 font-semibold gap-4'
 				id='flyer'
 			>
 				<div className='col-span-1 lg:col-span-3 flex justify-center'>
@@ -17,12 +17,17 @@ export default function Flyer() {
 					/>
 				</div>
 				<div className='my-10 pb-4 text-3xl lg:text-3xl flex justify-center items-center text-center text-[#1B365C] col-span-1 lg:col-span-3'>
-					<h1 className='font-poppinsThin lg:text-4xl'>
-						Implementar{' '}
-						<span className='text-white space-x-20'>“El Método”</span> para la
-						evolución de la enseñanza, <br /> recuperar el estado físico y la
+					{/* <h1 className='font-poppinsThin lg:text-4xl'>
+						Desde el año 2004, implementando{' '}
+						<span className='text-white space-x-20'>“El Método” AdulMa</span> para la
+						evolución de la enseñanza, recuperar el estado físico y la
 						neuro plasticidad. <br /> <br />
-					</h1>
+					</h1> */}
+					<img
+						src='/flyerComienzo.svg'
+						alt='Flyer del curso'
+						className='h-[450px] lg:h-[500px] lg:w-[700px] rounded-sm'
+					/>
 				</div>
 				<section className='grid lg:grid-cols-4 gap-4 p-4 '>
 					<div className='flex justify-center items-center'>
